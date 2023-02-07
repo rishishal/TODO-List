@@ -236,3 +236,25 @@ input:checked ~ .bubble::after {
   text-decoration: line-through;
   color: var(--grey);
 }
+
+
+@media (max-width:390px) {
+  .actions{
+    position: absolute;
+    right: 30px !important;
+  }
+
+  .actions .edit{
+
+    font-size: 12px !important;
+    padding: 6px !important;
+  }
+  .actions .delete{
+    font-size: 12px !important;
+    padding: 6px !important;
+  }
+  
+  .todo-content input[type="text"]{
+    font-size: 1rem !important;
+  }
+}
